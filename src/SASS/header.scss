@@ -1,6 +1,22 @@
+@import "./variables";
+
 .intro-par {
-    p {
-        font-size: 50px;
+    text-align: center;
+
+    font-size: 15px;
+
+    margin: 50px 0px;
+
+    padding: 25px;
+
+    .header {
+        font-weight: 800;
+    }
+
+    .subtitle {
+        font-weight: 600;
+
+        color: $text-color;
     }
 
     background-image: url("../images/pattern-circles.svg");
