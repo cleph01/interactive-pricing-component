@@ -6,8 +6,11 @@ import '../SASS/main.scss'
 function Main() {
     return (
         <div className="pricing-component">
-            Pageviews
-            $ /month
+            <div>
+                Pageviews
+                $ /month
+            </div>
+            <input className="slider" type="range" />
         </div>
     )
 }

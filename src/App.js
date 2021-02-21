@@ -7,10 +7,13 @@ import Main from './components/Main';
 function App() {
   return (
     <>
-      <Header />
-      <Main />
       
       <div className="App">
+      
+        <Header />
+        <Main />
+      
+      
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
