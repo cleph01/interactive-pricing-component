@@ -1,14 +1,19 @@
 import logo from './logo.svg';
 import './App.scss';
 
+import Header from './components/Header';
+import Main from './components/Main';
+
 function App() {
   return (
     <>
-      <div className="intro-par">
-        <p>Simple, traffic-based pricing</p>
-        <p>Sign-up for our 30-day trial. No credit card required. </p>
-      </div>
+      
       <div className="App">
+      
+        <Header />
+        <Main />
+      
+      
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
