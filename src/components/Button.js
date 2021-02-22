@@ -1,8 +1,10 @@
 import React from 'react'
 
+import '../SASS/button.scss'
+
 function Button() {
     return (
-        <div>
+        <div className="cta-button">
             Start my trial
         </div>
     )

@@ -1,0 +1,13 @@
+@import "./variables";
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $cta-background-color;
+    color: $cta-text;
+    height: 50px;
+    width: 175px;
+    font-size: 12px;
+    border-radius: 25px;
+}
