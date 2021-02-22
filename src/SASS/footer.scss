@@ -1,8 +1,17 @@
+@import "./variables";
+
 .footer-container {
     display: flex;
     justify-content: space-around;
-}
 
-.offer-list {
-    list-style-image: url("../images/icon-check.svg");
+    .offer-list {
+        list-style-image: url($list-bullet-images);
+        color: $text-color;
+    }
+
+    .cta-button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

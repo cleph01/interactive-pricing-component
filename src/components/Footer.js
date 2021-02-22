@@ -13,8 +13,11 @@ function Footer() {
                     <li>100% data ownership</li>
                     <li>Email reports</li>
                 </ul>
-            
-                <Button />
+
+                <div className="cta-button-container">
+                    <Button />
+                </div>
+                
             </div>
         </>
     )
