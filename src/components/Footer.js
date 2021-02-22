@@ -1,14 +1,22 @@
 import React from 'react'
 
+import Button from './Button'
+
+import '../SASS/footer.scss'
+
 function Footer() {
     return (
-        <div>
-            Unlimited websites
-            100% data ownership
-            Email reports
-
-            Start my trial
-        </div>
+        <>
+            <div className="footer-container">
+                <ul className="offer-list">
+                    <li>Unlimited websites</li>
+                    <li>100% data ownership</li>
+                    <li>Email reports</li>
+                </ul>
+            
+                <Button />
+            </div>
+        </>
     )
 }
 
