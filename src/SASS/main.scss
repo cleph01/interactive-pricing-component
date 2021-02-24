@@ -7,7 +7,21 @@
     width: 500px;
 
     .pricing-header {
-        margin: 25px 0px;
+        color: $text-color;
+        margin: 25px 20px;
+        display: flex;
+        justify-content: space-between;
+
+        .pricing-header-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .dollar {
+                color: $cta-background-color;
+                font-size: 30px;
+            }
+        }
     }
 
     .slider::-webkit-slider-thumb {
