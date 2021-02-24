@@ -4,11 +4,14 @@ $text-color: hsl(225, 20%, 60%);
 // Pricing Component
 $pricing-component-bg-color: #fff;
 
-$slider-bg-color: hsl(174, 86%, 45%);
-
 // Footer Offer List
-$list-bullet-images: '../images/icon-check.svg';
+$list-bullet-images: "../images/icon-check.svg";
 
 // CTA Button
 $cta-background-color: hsl(227, 35%, 25%);
 $cta-text: hsl(226, 100%, 87%);
+
+// Slider Color
+$empty-slider: hsl(224, 65%, 95%);
+$full-slider: hsl(174, 77%, 80%);
+$slider-bg: hsl(174, 86%, 45%);
