@@ -21,7 +21,7 @@ function Main() {
         <div className="pricing-component">
             <div className="pricing-header">
                 <div className="pricing-header-text">10K PAGEVIEWS</div>
-                <div className="pricing-header-text"><span className="dollar">${pageView["10"]}</span>/month</div>
+                <div className="pricing-header-text"><span className="dollar">${pageView["10"]}</span> / month</div>
             </div>
             
             <input className="slider" type="range" />
