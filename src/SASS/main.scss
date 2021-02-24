@@ -8,7 +8,7 @@
 
     .pricing-header {
         color: $text-color;
-        margin: 25px 20px;
+        margin: 25px 30px;
         display: flex;
         justify-content: space-between;
 
@@ -19,7 +19,8 @@
 
             .dollar {
                 color: $cta-background-color;
-                font-size: 30px;
+                font-size: 38px;
+                margin-right: 5px;
             }
         }
     }
