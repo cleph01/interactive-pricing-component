@@ -9,22 +9,29 @@ import '../SASS/main.scss'
 
 function Main() {
 
-    const [pageView, setPageVier] = useState({
-        "10" : 8, 
-        "50" : 12,
-        "100" : 16,
-        "500" : 24,
-        "1M" : 36
-    })
+    const [pageView, setPageView] = useState()
+
+    const handleChange = e => {
+
+        setPageView(e.target.value);
+    }
+
+    console.log("Range Value: ", pageView)
 
     return (
         <div className="pricing-component">
             <div className="pricing-header">
                 <div className="pricing-header-text">10K PAGEVIEWS</div>
-                <div className="pricing-header-text"><span className="dollar">${pageView["10"]}.00</span> / month</div>
+                <div className="pricing-header-text"><span className="dollar">$test.00</span> / month</div>
             </div>
             
-            <input className="slider" type="range" />
+            <input className="slider"
+                    // color={} 
+                    type="range" 
+                    min="10" 
+                    max="1000" 
+                    value={pageView} 
+                    onChange={handleChange} />
 
             <Billing />
 
