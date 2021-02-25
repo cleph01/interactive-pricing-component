@@ -25,13 +25,15 @@ function Main() {
                 <div className="pricing-header-text"><span className="dollar">$test.00</span> / month</div>
             </div>
             
-            <input className="slider"
-                    // color={} 
-                    type="range" 
-                    min="10" 
-                    max="1000" 
-                    value={pageView} 
-                    onChange={handleChange} />
+            <div className="slider-container"> 
+                <input className="slider"
+                        // color={} 
+                        type="range" 
+                        min="10" 
+                        max="1000" 
+                        value={pageView} 
+                        onChange={handleChange} />
+            </div>
 
             <Billing />
 

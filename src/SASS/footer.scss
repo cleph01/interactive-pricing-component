@@ -3,9 +3,13 @@
 .footer-container {
     display: flex;
     justify-content: space-around;
+    border-top: 1px solid $cta-text;
+    padding: 25px 0px;
 
     .offer-list {
         list-style-image: url($list-bullet-images);
+        font-size: 13px;
+        line-height: 200%;
         color: $text-color;
         text-align: left;
     }
