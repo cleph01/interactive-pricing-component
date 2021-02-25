@@ -29,21 +29,43 @@
         }
     }
 
-    .slider::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 23px;
-        height: 24px;
-        border: 0;
-        background-image: url("../images/icon-slider.svg");
-        cursor: pointer;
-    }
+    .slider-container {
+        width: 100%;
 
-    .slider::-moz-range-thumb {
-        width: 23px;
-        height: 25px;
-        border: 0;
-        background: url("../images/icon-slider.svg");
-        cursor: pointer;
+        .slider {
+            -webkit-appearance: none;
+            width: 90%;
+            height: 8px;
+            border-radius: 5px;
+            background: #d3d3d3;
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: 0.2s;
+            transition: opacity 0.2s;
+            vertical-align: middle;
+        }
+
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 23px;
+            height: 24px;
+            border: 0;
+            background-image: url("../images/icon-slider.svg");
+            padding: 20px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: hsl(174, 86%, 45%);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        // .slider::-moz-range-thumb {
+        //     width: 23px;
+        //     height: 25px;
+        //     border: 0;
+        //     background: url("../images/icon-slider.svg");
+        //     cursor: pointer;
+        // }
     }
 }
